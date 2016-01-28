@@ -3,11 +3,14 @@ Each rb file is one single challenge, each challenge comes with a test file. Exc
 
 Challenges include:
 
-battleship.rb, a game of battleship runs in your console.
+## battleship.rb,
+a game of battleship runs in your console.
 
-circular_buffer.rb, creat a circlar buffer data structures.
+## circular_buffer.rb,
+creat a circlar buffer data structures.
 
-luhn.rb, the Luhn Algorithm, a simple checksum formula used to validate a variety of identification numbers, such as credit card numbers and Canadian Social Insurance Numbers.
+## luhn.rb, 
+the Luhn Algorithm, a simple checksum formula used to validate a variety of identification numbers, such as credit card numbers and Canadian Social Insurance Numbers.
 The formula verifies a number against its included check digit, which is usually appended to a partial number to generate the full number. This number must pass the following test:
 Counting from rightmost digit (which is the check digit) and moving left, double the value of every second digit.
 For any digits that thus become 10 or more, subtract 9 from the result.
@@ -18,7 +21,8 @@ Add all these digits together.
 8763 becomes 7733, and 7+7+3+3 is 20.
 If the total ends in 0 (put another way, if the total modulus 10 is congruent to 0), then the number is valid according to the Luhn formula; else it is not valid. So, 1111 is not valid (as shown above, it comes out to 6), while 8763 is valid (as shown above, it comes out to 20).
 
-minesweeper.rb, like the old game minesweeper,
+## minesweeper.rb,
+like the old game minesweeper,
 input:
 +-----+
 | * * |
@@ -34,9 +38,10 @@ output:
 | 111 |
 +-----+
 
-octal.rb, implement octal to decimal conversion. Given an octal input string, your program should produce a decimal output.
+## octal.rb, 
+implement octal to decimal conversion. Given an octal input string, your program should produce a decimal output.
 
-pig_latin.rb, 
+## pig_latin.rb, 
 Pig Latin is a made-up children's language that's intended to be confusing. It obeys a few simple rules (below), but when it's spoken quickly it's really difficult for non-children (and non-native speakers) to understand.
 
 Rule 1: If a word begins with a vowel sound, add an "ay" sound to the end of the word.
@@ -50,7 +55,7 @@ Codons: "AUG", "UUU", "UCU"
 
 Protein: "Methionine", "Phenylalanine", "Serine"
 
-queen_attack.rb, 
+## queen_attack.rb, 
 In the game of chess, a queen can attack pieces which are on the same row, column, or diagonal.
 
 A chessboard can be represented by an 8 by 8 array.
@@ -67,7 +72,7 @@ _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
 You'd also be able to answer whether the queens can attack each other. In this case, that answer would be yes, they can, because both pieces share a diagonal.
 
-secret_handshake.rb,
+## secret_handshake.rb,
 You and your fellow cohort of those in the "know" when it comes to binary decide to come up with a secret "handshake".
 
 1 = wink
@@ -84,7 +89,7 @@ handshake = SecretHandshake.new "11001"
 handshake.commands # => ["jump","wink"]
 The program should consider strings specifying an invalid binary as the value 0.
 
-series.rb,
+## series.rb,
 Write a program that will take a string of digits and give you all the possible consecutive number series of length n in that string.
 
 For example, the string "01234" has the following 3-digit series:
@@ -97,7 +102,7 @@ And the following 4-digit series:
 - 0123
 - 1234
 
-sieve.rb,
+## sieve.rb,
 Write a program that uses the Sieve of Eratosthenes to find all the primes from 2 up to a given number.
 
 The Sieve of Eratosthenes is a simple, ancient algorithm for finding all prime numbers up to any given limit. It does so by iteratively marking as composite (i.e. not prime) the multiples of each prime, starting with the multiples of 2.
@@ -110,8 +115,8 @@ take the next available unmarked number in your list (it is prime)
 mark all the multiples of that number (they are not prime)
 Repeat until you have processed each number in your range. When the algorithm terminates, all the numbers in the list that have not been marked are prime. The wikipedia article has a useful graphic that explains the algorithm: https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
 
-simulator.rb,
-## Step 1
+## simulator.rb,
+# Step 1
 
 The robot factory manufactures robots that have three possible
 movements:
@@ -124,7 +129,7 @@ Robots are placed on a hypothetical infinite grid, facing a particular
 direction (north, east, south, or west) at a set of {x,y} coordinates,
 e.g., {3,8}.
 
-## Step 2
+# Step 2
 
 Robots can pivot left and right.
 
@@ -154,7 +159,7 @@ The robot then receives a number of instructions, at which point the
 testing facility verifies the robot's new position, and in which
 direction it is pointing.
 
-## Step 3
+# Step 3
 
 The robot factory manufactures robots that have three possible
 movements:
