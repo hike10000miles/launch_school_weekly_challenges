@@ -1,4 +1,4 @@
-Weekly challenges from launch school
+## Weekly challenges from launch school
 Each rb file is one single challenge, each challenge comes with a test file. Except the battleship game, which do not have test.
 
 Challenges include:
