@@ -116,7 +116,7 @@ mark all the multiples of that number (they are not prime)
 Repeat until you have processed each number in your range. When the algorithm terminates, all the numbers in the list that have not been marked are prime. The wikipedia article has a useful graphic that explains the algorithm: https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
 
 ## simulator.rb,
-# Step 1
+### Step 1
 
 The robot factory manufactures robots that have three possible
 movements:
@@ -129,7 +129,7 @@ Robots are placed on a hypothetical infinite grid, facing a particular
 direction (north, east, south, or west) at a set of {x,y} coordinates,
 e.g., {3,8}.
 
-# Step 2
+### Step 2
 
 Robots can pivot left and right.
 
@@ -159,7 +159,7 @@ The robot then receives a number of instructions, at which point the
 testing facility verifies the robot's new position, and in which
 direction it is pointing.
 
-# Step 3
+### Step 3
 
 The robot factory manufactures robots that have three possible
 movements:
